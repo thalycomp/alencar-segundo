@@ -5,6 +5,11 @@
 }
 
 .logo {
+	align-items: center;
+	border: 1px solid #ffffff;
 	
-	
+}
+
+.logo img{
+	margin: auto;
 }
