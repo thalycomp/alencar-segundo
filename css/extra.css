@@ -5,11 +5,14 @@
 }
 
 .logo {
-	align-items: center;
-	border: 1px solid #ffffff;
-	
+	margin-top: auto;
+	border: 1px solid #ffffff;	
 }
 
 .logo img{
-	margin: auto;
+	background: rgba(242, 201, 76, 0.39);
+	border: 3px solid #F2C94C;
+	box-sizing: border-box;
+	border-radius: 8px;
+
 }
