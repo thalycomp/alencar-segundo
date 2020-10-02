@@ -1,18 +1,22 @@
 #banner {
 	background-image: url("../images/banner.png");
 	background-size: cover;
-	height: 551px;
+	height: 550px;
 }
 
 .logo {
-	margin-top: auto;
-	border: 1px solid #ffffff;	
+	
+	border: 1px solid #ffffff00;	
 }
-
 .logo img{
 	background: rgba(242, 201, 76, 0.39);
 	border: 3px solid #F2C94C;
 	box-sizing: border-box;
 	border-radius: 8px;
+	margin-top: 200px;
+}
 
+.esc{
+	margin-left: 149px;
+	margin-top: 20px;
 }
