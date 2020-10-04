@@ -117,3 +117,15 @@ div.container-maps-items {
 div.container-maps-items strong {
 	margin-bottom: 20px;
 }
+
+footer {
+	background-color: #404040;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+footer img {
+	width: 300px;
+}
