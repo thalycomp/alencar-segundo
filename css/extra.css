@@ -99,3 +99,21 @@ div.box-area {
 	border-radius: 30px;
 	margin: 10px;
 }
+
+div.container-maps {
+	display: flex;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.container-maps-items {
+	max-width: 300px;
+	text-align: center;
+	margin-right: 30px;
+}
+
+div.container-maps-items strong {
+	margin-bottom: 20px;
+}
