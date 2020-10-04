@@ -1,3 +1,26 @@
+body {
+	position: relative;
+}
+
+div.up-to-page {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	z-index: 20;
+	background-color: #F2C94C;
+	bottom: 30px;
+	right: 30px;
+	box-shadow: 0 1px 5px rgba(0,0,0,1);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div.up-to-page img {
+	width: 40px;
+	height: 40px;
+}
+
 #banner {
 	background-image: url("../images/banner-escuro.png");
 	background-size: cover;
