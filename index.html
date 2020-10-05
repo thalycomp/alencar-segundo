@@ -142,13 +142,16 @@
     <section>
       <h2 class="background double text-uppercase"><span>Contato</span></h2>
       <div class="container-contato">
-        <form class="form" action="">
+        <form class="form"
+          action="https://formspree.io/f/thalycomp@gmail.com"
+          method="POST"
+        >
           <fieldset>
             <label>Fale Conosco</label>
-            <input type="text" placeholder="SEU NOME" >
-            <input type="email" placeholder="SEU EMAIL" >
-            <input type="number" placeholder="SEU TELEFONE" >
-            <textarea name="" id="" cols="30" rows="6" placeholder="SUA MENSAGEM"></textarea>
+            <input type="text" name="name" required placeholder="SEU NOME" >
+            <input type="email" name="_replyto" required placeholder="SEU EMAIL" >
+            <input type="number" name="number" required placeholder="SEU TELEFONE" >
+            <textarea name="message" required id="" cols="30" rows="6" placeholder="SUA MENSAGEM"></textarea>
             <button type="submit">ENVIAR</button>
           </fieldset>
         </form>
