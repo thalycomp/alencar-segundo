@@ -152,3 +152,54 @@ footer {
 footer img {
 	width: 300px;
 }
+
+.container-contato {
+	display: flex;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.container-contato-infos {
+	max-width: 400px;
+}
+
+fieldset label, input, textarea {
+	display: block;
+	margin-bottom: 15px;
+}
+
+fieldset input, textarea, button {
+	border: 2px solid #F2C94C;
+	width: 100%;
+	padding: 6px;
+}
+
+fieldset button {
+	background-color: #F2C94C;
+}
+
+fieldset button:hover {
+	background-color: #fff;
+}
+
+fieldset label {
+	text-align: center;
+	font-weight: bold;
+}
+
+.container-contato-logos {
+	margin-top: 20px;
+	display: flex;
+}
+
+.container-contato-logos a {
+	padding: 5px;
+}
+
+.container-contato-logos img {
+	height: 50px;
+	width: 50px;
+}
