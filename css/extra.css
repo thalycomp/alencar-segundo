@@ -46,6 +46,7 @@ div.up-to-page img {
 	background-size: cover;
 	height: 550px;
 	margin-top: -1px;
+	
 }
 
 .logo {
@@ -102,6 +103,7 @@ p.container-center {
 	margin-top: 40px;
 	text-decoration: justify;
 	line-height: 32px;
+	
 }
 
 div.container-grid {
@@ -289,3 +291,4 @@ fieldset label {
 		margin-top: 20px;
 	}
 }
+
