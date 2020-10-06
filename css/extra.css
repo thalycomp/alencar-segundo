@@ -195,7 +195,7 @@ fieldset label, input, textarea {
 	margin-bottom: 15px;
 }
 
-fieldset input, textarea, button {
+fieldset input, textarea, .envi {
 	border: 2px solid #F2C94C;
 	width: 100%;
 	padding: 6px;
