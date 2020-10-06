@@ -1,6 +1,26 @@
 body {
 	position: relative;
 }
+/*
+div.barras-hr {
+	display: flex;
+	align-items: center;
+}
+
+div.barras-hr hr {
+	background-color: #F2C94C;
+	height: 2px;
+	border: none;
+	margin-top: 30px;
+}
+
+.menor-hr {
+	width: 15%
+}
+
+.maior-hr {
+	width: 55%;
+}*/
 
 div.up-to-page {
 	position: fixed;
@@ -155,7 +175,10 @@ footer img {
 
 .container-contato {
 	display: flex;
+	width: 100%;
 	max-width: 900px;
+	padding-left: 5%;
+	padding-right: 5%;
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -164,6 +187,7 @@ footer img {
 }
 .container-contato-infos {
 	max-width: 400px;
+	padding-left: 5%;
 }
 
 fieldset label, input, textarea {
@@ -202,4 +226,66 @@ fieldset label {
 .container-contato-logos img {
 	height: 50px;
 	width: 50px;
+}
+
+/*
+* Responsividade
+*/
+
+@media (max-width: 690px) {
+	/*
+	*		SECTION ÁREAS DE ATUAÇÃO
+	*/
+
+	div.container-grid {
+		display: grid;
+		max-width: 580px;
+		margin: 0 auto;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 3px;
+	}
+
+	/*
+	* 	SECTION CONTATO
+	*/
+	.container-contato {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.container-contato-infos {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 503px) {
+	/*
+	*		SECTION LOCALIZAÇÃO
+	*/
+
+	.container-maps {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container-maps-items {
+		margin-top: -20px;
+		margin-bottom: 10px;
+	}
+
+	/*
+	*		SECTION ÁREAS DE ATUAÇÃO
+	*/
+
+	div.container-grid {
+		padding-left: 5%;
+		padding-right: 5%;
+		display: grid;
+		max-width: 400px;
+		margin: 0 auto;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 3px;
+		margin-top: 20px;
+	}
 }
