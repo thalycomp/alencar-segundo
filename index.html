@@ -13,6 +13,7 @@
     <title>Alencar Segundo Advocacia</title>
   </head>
   <body>
+    <!-- botão flutuante -->
     <div class="up-to-page">
       <a href="" class="">
         <img src="./images/arrow-up-white.svg" alt="arrow-up">
@@ -37,7 +38,7 @@
             <a class="nav-link text-primary" href="#eq">Nossa Equipe <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link text-primary" href="#loc">Localizção <span class="sr-only">(current)</span></a>
+           <a class="nav-link text-primary" href="#loc">Localizção <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link text-primary" href="#cont">Contato <span class="sr-only">(current)</span></a>
@@ -138,9 +139,40 @@
     <!--localização-fim-->
 
     <!--Contato-começo-->
-    <section  class="container-flex-items">
+
+    <section>
       <h2 class="background double text-uppercase"><span><a name="cont">Contato</a></span></h2>
-    </section>
+      <div class="container-contato">
+        <form class="form"
+          action="https://formspree.io/f/thalycomp@gmail.com"
+          method="POST"
+        >
+          <fieldset>
+            <label>Fale Conosco</label>
+            <input type="text" name="name" required placeholder="SEU NOME" >
+            <input type="email" name="_replyto" required placeholder="SEU EMAIL" >
+            <input type="number" name="number" required placeholder="SEU TELEFONE" >
+            <textarea name="message" required id="" cols="30" rows="6" placeholder="SUA MENSAGEM"></textarea>
+            <button type="submit">ENVIAR</button>
+          </fieldset>
+        </form>
+        <div class="container-contato-infos">
+          <strong>Nosso horário de funcionamento</strong>
+          <p>Estamos em fortaleza lorem ipson lorem ipson lorem ipsom lorem ipsom lorem ipsom</p>
+
+          <strong>Nossas redes sociais</strong>
+          <div class="container-contato-logos">
+            <a href="" class="">
+              <img src="./images/logo-facebook.png" alt="logo-facebook">
+            </a>
+            <a href="" class="">
+              <img src="./images/logo-instagram.png" alt="logo-instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+
+  
     <footer>
       <img src="images/logo.png" alt="Alencar Segundo Advogados & Associados">
     </footer>
