@@ -291,4 +291,25 @@ fieldset label {
 		margin-top: 20px;
 	}
 }
+.fadeIn {
+	animation: fadein 5s;
+}
 
+.slide {
+	animation: slideright 5s;
+}
+
+
+@keyframes fadein{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideright{
+	0%   {left:-200px;}
+	100% {left:0px;}
+}
