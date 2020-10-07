@@ -291,9 +291,9 @@ fieldset label {
 		margin-top: 20px;
 	}
 }
-.fadeIn {
+/*.fadeIn {
 	animation: fadein 5s;
-}
+}*/
 
 .slide {
 	animation: slideright 5s;
