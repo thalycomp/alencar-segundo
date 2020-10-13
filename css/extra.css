@@ -256,13 +256,13 @@ fieldset label {
 .anime {
 	opacity: 0;
 	transform: translate3d(100px,0,0);
-	transition: .9s;
+	transition: .7s;
 }
 
 .anime2 {
 	opacity: 0;
 	transform: translate3d(-100px,0,0);
-	transition: .9s;
+	transition: .7s;
 }
 
 .anime3 {
