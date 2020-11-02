@@ -4,9 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+   
     <script src="./js/extra.js"></script>
 
+
+    <script src="jquery-3.5.1.min.js"></script>
+  
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/extra.css">
@@ -38,8 +42,11 @@
           <li class="nav-item active">
             <a class="nav-link text-primary" href="#areas">Areas de atuação<span class="sr-only">(current)</span></a>
           </li>
+          <!--li class="nav-item active">
+            <a class="nav-link text-primary" href="#cli">Clientes <span class="sr-only">(current)</span></a>
+          </li-->
           <li class="nav-item active">
-            <a class="nav-link text-primary" href="#eq">Nossa Equipe <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-primary" href="#lj">Links <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
            <a class="nav-link text-primary" href="#loc">Localização <span class="sr-only">(current)</span></a>
@@ -55,7 +62,7 @@
 
     <!--banner-início-->
     <div id="banner">
-      <div class="logo mx-auto">
+      <div class="logo mx-auto fadeIn">
        <img src="images/logo.png" class="mx-auto d-block img-fluid" alt="Alencar Segundo Advogados & Associados">
       </div>
     </div>
@@ -63,68 +70,142 @@
     <!--O escritorio-início-->
     <section class="esc" data-anime="top-bottom">
       <h2 class="background double text-uppercase"><span><a name='esc'>O Escritório</a></span></h2>
-      <p class="col-8 container-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sem turpis, suscipit vulputate neque eget, 
-        commodo viverra neque. Morbi a mauris et nunc condimentum egestas. 
-        Aenean congue pharetra lacus, id lacinia massa laoreet id. 
-        Etiam congue sapien sed felis feugiat efficitur. Phasellus a commodo sapien.
-         Donec ultrices lorem id mauris tempus, 
-        nec lobortis urna consequat. Nulla vitae arcu nulla.
-
-      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="images/fachada.jpeg" alt="Fachada da Alencar Segundo Advocacia" class="fachada anime2">
+          </div>
+          <div class="col anime">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sem turpis, suscipit vulputate neque eget, 
+              commodo viverra neque. Morbi a mauris et nunc condimentum egestas. 
+              Aenean congue pharetra lacus, id lacinia massa laoreet id. 
+              Etiam congue sapien sed felis feugiat efficitur. Phasellus a commodo sapien.
+              Donec ultrices lorem id mauris tempus, 
+              nec lobortis urna consequat. Nulla vitae arcu nulla.
+            </p>
+          </div>
+        </div>
+     
     </section>
     <!--O escritorio-fim-->
     
     <!--Areas-começo-->
     <section>
-      <h2 class="background double text-uppercase"><span><a name="areas">Áreas de Atuação</a></span></h2>
+      <h2 class="background double text-uppercase anime3"><span><a name="areas">Áreas de Atuação</a></span></h2>
       <div class="container-grid">
-        <div class="container-flex-items box-area" data-anime="top-bottom">
+        <div class="container-flex-items box-area anime2">
+          <strong>Direito Eleitoral</strong>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="container-flex-items box-area anime2">
+          <strong>Direito Administrativo</strong>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="container-flex-items box-area anime">
+          <strong>Licitações e Contratos</strong>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="container-flex-items box-area anime2">
+          <strong>Direito Comercial</strong>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="container-flex-items box-area anime">
           <strong>Direito Previdenciário</strong>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
         </div>
-        <div class="container-flex-items box-area" data-anime="top-bottom">
-          <strong>Direito Previdenciário</strong>
+        <div class="container-flex-items box-area anime">
+          <strong>Direito Cível</strong>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div class="container-flex-items box-area" data-anime="top-bottom">
-          <strong>Direito Previdenciário</strong>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div class="container-flex-items box-area" data-anime="top-bottom">
-          <strong>Direito Previdenciário</strong>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div class="container-flex-items box-area" data-anime="top-bottom">
-          <strong>Direito Previdenciário</strong>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-        </div>
-        <div class="container-flex-items box-area" data-anime="top-bottom">
-          <strong>Direito Previdenciário</strong>
+        </div>  
+        <div class="container-flex-items box-area anime">
+          <strong>Direito Municipal</strong>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
         </div>  
       </div>
     </section>
     <!--areas-fim-->
 
+    <!--Equipe-começo -->
+    <section>
+      <h2 class="background double text-uppercase"><span><a name='cli'>Clientes</a></span></h2>
+      <div class="container-grid">
+        <div class="container-flex-items anime2">
+          <img src="./images/adv.png" alt="Advogado">
+          <strong>Perry Mason</strong>
+          <span>OAB: 0000000000</span>
+        </div>
+        <div class="container-flex-items anime2">
+          <img src="./images/adv.png" alt="Advogado">
+          <strong>Perry Mason</strong>
+          <span>OAB: 0000000000</span>
+        </div>
+        <div class="container-flex-items anime">
+          <img src="./images/adv.png" alt="Advogado">
+          <strong>Perry Mason</strong>
+          <span>OAB: 0000000000</span>
+        </div>
+      </div>
+    </section>
+    <Equipe-fim-->
     <!--Equipe-começo-->
     <section>
-      <h2 class="background double text-uppercase"><span><a name='eq'>Nossa Equipe</a></span></h2>
+      <h2 class="background double text-uppercase"><span><a name='lj'>Links Jurídicos</a></span></h2>
       <div class="container-grid">
-        <div class="container-flex-items" data-anime="left-right">
-          <img src="./images/adv.png" alt="Advogado">
-          <strong>Perry Mason</strong>
-          <span>OAB: 0000000000</span>
-        </div>
-        <div class="container-flex-items" data-anime="top-bottom">
-          <img src="./images/adv.png" alt="Advogado">
-          <strong>Perry Mason</strong>
-          <span>OAB: 0000000000</span>
-        </div>
-        <div class="container-flex-items" data-anime="right-left">
-          <img src="./images/adv.png" alt="Advogado">
-          <strong>Perry Mason</strong>
-          <span>OAB: 0000000000</span>
-        </div>
+          <div class="col-sm">
+            <ul style="list-style: none;">
+              <li>
+                <h6><strong>Supremo Tribunal Federal</strong></h6>
+                <a href="http://portal.stf.jus.br/" target="_blank">stf.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Conselho Nacional de Justiça</strong></h6>
+                <a href="http://www.cnj.jus.br/" target="_blank">www.cnj.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Supremo Tribunal de Justiça</strong></h6>
+                <a href="https://www.stj.jus.br/sites/portalp/Inicio" target="_blank">stj.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Tribunal Superior Eleitoral</strong></h6>
+                <a href="https://www.tse.jus.br/" target="_blank">tse.jus.br</a>
+              </li><br>
+            </ul>
+          </div>
+          
+          <div class="col-sm">
+            <ul style="list-style: none;">
+              <li>
+                <h6><strong>Tribunal de Justiça do Estado do Ceará</strong></h6>
+                <a href="https://www.tjce.jus.br/" target="_blank">tjce.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Tribunal Regional Eleitoral</strong></h6>
+                <a href="https://www.tre-ce.jus.br/" target="_blank">tre-ce.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Tribunal Regional do Trabalho da 7ª. Região</strong></h6>
+                <a href="https://www.trt7.jus.br/" target="_blank">trt7.jus.br</a>
+              </li><br>          
+            </ul>
+          </div>
+          
+          <div class="col-sm">
+            <ul style="list-style: none;">
+              <li>
+                <h6><strong>Tribunal Regional do Trabalho da 5ª. Região</strong></h6>
+                <a href="https://www.trt5.jus.br/" target="_blank">trt5.jus.br</a>
+              </li><br>   
+              <li>
+                <h6><strong>Conselho de Justiça Federal do Ceará</strong></h6>
+                <a href="https://www.jfce.jus.br/" target="_blank">jfce.jus.br</a>
+              </li><br>
+              <li>
+                <h6><strong>Conselho da Justiça Federal</strong></h6>
+                <a href="https://www.cjf.jus.br/cjf/" target="_blank">cjf.jus.br</a>
+              </li><br>
+            </ul>
+          </div>
+          
       </div>
     </section>
     <!--Equipe-fim-->
@@ -132,10 +213,10 @@
     <!--localização-começo-->
     <section>
       <h2 class="background double text-uppercase"><span><a name="loc">localização</a></span></h2>
-      <div class="container-maps">
-        <div class="container-flex-items container-maps-items" data-anime="top-bottom">
+      <div class="container-maps anime">
+        <div class="container-flex-items container-maps-items anime2">
           <strong>Como nos encontrar?</strong>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+          <span>Rua General Cordeiro, xxx - Centro, Uruburetama - CE, 62650-000 </span>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.561872401772!2d-40.35470868590314!3d-3.6866559973175907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eac6e0f47208e5%3A0xaa411c1efa21792f!2sSagit%C3%A1rio%20%7C%20Folheados%20e%20Bijuterias%20em%20Sobral!5e0!3m2!1spt-BR!2sbr!4v1601771737215!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
      </div>
@@ -146,7 +227,7 @@
 
     <section>
       <h2 class="background double text-uppercase"><span><a name="cont">Contato</a></span></h2>
-      <div class="container-contato">
+      <div class="container-contato anime2">
         <form class="form"
           action="https://formspree.io/f/thalycomp@gmail.com"
           method="POST"
@@ -158,12 +239,12 @@
             <input type="email" name="_replyto" required placeholder="SEU EMAIL" >
             <input type="number" name="number" required placeholder="SEU TELEFONE" >
             <textarea name="message" required id="" cols="30" rows="6" placeholder="SUA MENSAGEM"></textarea>
-            <button type="submit">ENVIAR</button>
+            <button class="envi"type="submit">ENVIAR</button>
           </fieldset>
         </form>
         <div class="container-contato-infos" data-anime="right-left">
           <strong>Nosso horário de funcionamento</strong>
-          <p>Estamos em fortaleza lorem ipson lorem ipson lorem ipsom lorem ipsom lorem ipsom</p>
+          <p>de Segunda a Sexta de 08:30 às 17:00 e aos sábados de 09:00 às 12:00</p>
 
           <strong>Nossas redes sociais</strong>
           <div class="container-contato-logos">
@@ -187,5 +268,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/app2.js"></script>
+    <script src="./js/app3.js"></script>
   </body>
 </html>
