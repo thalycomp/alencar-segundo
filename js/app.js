@@ -21,8 +21,6 @@ debounce = function(func, wait, immediate) {
 			if (screen.width < 640 || screen.height < 480) {
 				console.log('tela pequena')
 				var offset = $(window).height() * 4;
-			} else if (screen.width < 1024 || screen.height < 768) {
-				var offset = $(window).height() * 4;
 			} else {
 				var offset = $(window).height() * 0.9;
 			}
