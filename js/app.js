@@ -16,8 +16,16 @@ debounce = function(func, wait, immediate) {
 
 (function(){
 	var $target = $('.anime'),
-			animationClass = 'anime-start',
-			offset = $(window).height() * 3/4;
+			animationClass = 'anime-start';
+			
+			if (screen.width < 640 || screen.height < 480) {
+				console.log('tela pequena')
+				var offset = $(window).height() * 4;
+			} else if (screen.width < 1024 || screen.height < 768) {
+				var offset = $(window).height() * 4;
+			} else {
+				var offset = $(window).height() * 0.9;
+			}
 
 	function animeScroll() {
 		var documentTop = $(document).scrollTop();
